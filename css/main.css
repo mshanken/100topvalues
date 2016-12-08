@@ -1,0 +1,1200 @@
+/* start of new code*/
+.navbar-default{
+    background-color: #333333;
+    border-color: #e7e7e7;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+}
+.event_name{
+  text-decoration:none; 
+  font-size:70px;
+  margin-top: 24px;
+  border-top: 6px solid #333;
+  /*width: 728px;*/
+}
+.centering_ad{
+  margin-left: 200px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 23px !important;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+/* end of new code*/
+img{
+  margin:0 auto;
+}
+#ws-logo{
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  width: auto;
+  padding-right: 5px;
+  margin-left: 1px;
+}
+a {
+    color: #ffffff !important;
+}
+.nav_text{
+  font-size: 16px;
+  margin-top: 20px;
+  padding-top: 5px !important;
+  padding-bottom: 20px !important;
+}
+.navbar-default{
+  font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+  font-weight: 300;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+ul li a #{
+  font-family: 'Roboto', sans-serif;
+  color:#B53432 !important;
+  font-weight: bold;
+}
+ul li:hover a {
+  font-family: 'Roboto', sans-serif;
+  color:#B53432 !important;
+  font-weight: bold;
+}
+#header-nav ul li:hover a {
+  color:#B53432;
+  font-weight: bold;
+}
+.navbar #header-nav{
+      background: linear-gradient(#e0ded7,#d9d7ce);
+}
+#header-nav .navbar-nav>li>a {
+    color: #404040;
+}
+.pike{
+  margin-left: 30px;
+}
+#title{
+	/*background-color: #c5c1b5;
+	width:100%;*/
+}
+h1{
+    color: #404040;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 53px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#homepage_image{
+  margin:20px 0;
+  border-radius: 20px;
+  border: solid 1px #dadada;
+}
+.home_descritpion{
+  font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+}
+.light_whites{
+  border-bottom: 10px solid #edecdf;
+  border-right: 1px solid #605d58;
+  font-size: 50px;
+}
+.rich_whites{
+  border-bottom: 10px solid #FFF3CF;
+  border-right: 1px solid #605d58;
+  font-size: 50px;
+}
+.elegant_reds{
+  border-bottom: 10px solid #F5D9CE;
+  border-right: 1px solid #605d58;
+  font-size: 50px;
+}
+.big_reds{
+  border-bottom: 10px solid #D19391;
+  border-right: 1px solid #605d58;
+  font-size: 50px;
+}
+.rose{
+  border-bottom: 10px solid #F2B3B1;
+  border-right: 1px solid #605d58;
+  font-size: 50px;
+}
+.sparkling{
+  border-bottom: 10px solid #F8C5A1;
+  border-right: 1px solid #605d58;
+  font-size: 50px;
+  padding-top: 15px;
+}
+.description{
+  font-size: 16px;
+  font-family: ;
+}
+.wine_list{
+  padding: 20px 16px;
+}
+.rating_price{
+  font-weight: bold;
+  font-family: ;
+}
+.rating_only{
+	color: #B53432;
+}
+.winery{
+  color: #B53432;
+  font-weight: bold;
+  font-family: ;
+  text-transform: uppercase;
+}
+.wine_name{
+  color: #B53432;
+  font-family: ;
+  font-weight: bold;
+}
+.extra_space{
+  padding-bottom: 20px;
+}
+.mobile_dropdown{
+  text-align: center;
+}
+.mobile_dropdown li{
+  padding: 6px 0;
+}
+.mobile_nav_color{
+
+}
+.mobile_nav_well{
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  background: #333333;
+}
+#hide_desktop{
+	display: none;
+}
+#second_nav{
+	 background-color:#fffcf4;;
+}
+.value-button{
+	color: #ffffff;
+    background-color: #C35857;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding: 10px 0;
+    font-weight: 400;
+    text-decoration: none;	
+}
+.value-button:hover{
+	color: #ffffff;
+	background-color: #b53433;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	padding:10px 0;
+	font-weight: 400;
+	text-decoration: none;
+}
+.value-button:active{
+	color: #ffffff;
+	background-color: #C35857;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	padding:10px 0;
+	font-weight: 400;
+	text-decoration: none;
+}
+.value-button:visited{
+	color: #ffffff;
+	background-color: #C35857;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	padding:10px 0;
+	font-weight: 400;
+	text-decoration: none;
+}
+.value-button:focus{
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	padding:10px 0;
+	font-weight: 400;
+	text-decoration: none;
+}
+#banner_ad{
+	background: linear-gradient(#e0ded7,#d9d7ce);
+	width: 100%;
+	padding-top: 15px;
+    padding-bottom: 15px;
+}
+.image_banner{
+	margin:0 auto;
+	text-align: center;
+}
+
+.footer a{
+	color: #515151;
+	background-color: transparent;
+	box-sizing:border-box;
+	text-decoration: none;
+}
+.footer a{
+	color: #515151;
+	background-color: transparent;
+	box-sizing:border-box;
+	text-decoration: none;
+}
+.footer{
+	width:100%;
+	padding-top:50px;
+}
+#footer-nav{
+	width:100%;
+	background: #333;
+  padding-top:20px;
+}
+.ws_footer{
+  color: rgb(171, 1, 0);
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+.footer-title{
+	color:#ffffff;
+	font-family: Roboto, helvetica;
+	font-size: 24px;
+	font-weight: 500;
+	list-style: none;
+	text-align: left;
+}
+.footer-options{
+	list-style-type:none; 
+	font-size: 16px;
+	color: #ffffff !important;
+	text-decoration: none;
+	text-align: left;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+.footer-options:hover a{
+	color: #c0102d !important;
+	list-style-type:none;
+	font-size: 16px;
+  font-weight: 300;
+  text-decoration: none !important;
+}
+.footer-options-links{
+	list-style-type:none; 
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+}
+#footer_space{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  }    
+.facebook{
+	max-width: 40px;
+	margin-right:24px;
+	max-height: 40px;
+}
+.twitter{
+    max-width: 41px;
+    margin-right:24px;
+	max-height: 41px;
+}
+.pintrest{
+    max-width: 40px;
+    margin-right:24px;
+	max-height: 40px;
+}
+.google{
+    max-width: 40px;
+    margin-right:24px;
+	max-height: 40px;
+}
+#social-media-spot{
+		margin: 10px auto;
+    text-align: center;
+	}
+.footer-copyright-info{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+  margin-bottom: 20px;
+}
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    h1{
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+    }
+    .light_whites{
+      border-bottom: 10px solid #edecdf;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rich_whites{
+      border-bottom: 10px solid #FFF3CF;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .elegant_reds{
+      border-bottom: 10px solid #F5D9CE;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .big_reds{
+      border-bottom: 10px solid #D19391;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rose{
+      border-bottom: 10px solid #F2B3B1;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .sparkling{
+      border-bottom: 10px solid #F8C5A1;
+      border-right: none !important;
+      font-size: 46px;
+      padding-top: 15px;
+      text-align: center;
+    }
+    .description {
+      font-size: 17px;
+      font-family: ;
+    }
+    #homepage_image{
+      display: none;
+    }
+    ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center !important;
+      padding: 0;
+    }
+    .navbar-header{
+    	background: #333;
+    }
+   
+    .navbar-default {
+	    border-color: #e7e7e7;
+	    min-height: 0px;
+	}
+	.navbar-collapse {
+		/*background:linear-gradient(rgb(224, 222, 215), rgb(132, 126, 103));*/
+	}
+	.navbar-default .navbar-toggle {
+    	border-color: #000000 !important;
+	}
+	.navbar-toggle{
+	    border: 0px transparent !important;
+	}
+	.image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	 .footer-title {
+	   font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+    padding-left: 14px !important;
+	}
+	#social-media-spot{
+		  margin: 20px auto;
+    	text-align: center;
+	}
+  #footer_space {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .footer-copyright-info {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    margin-bottom: 60px;
+}
+}
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	ul, li, a{
+      font-size: 19px;
+    }
+    #homepage_image{
+      display: none;
+    }
+    .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .light_whites{
+      border-bottom: 10px solid #edecdf;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rich_whites{
+      border-bottom: 10px solid #FFF3CF;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .elegant_reds{
+      border-bottom: 10px solid #F5D9CE;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .big_reds{
+      border-bottom: 10px solid #D19391;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rose{
+      border-bottom: 10px solid #F2B3B1;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .sparkling{
+      border-bottom: 10px solid #F8C5A1;
+      border-right: none !important;
+      font-size: 46px;
+      padding-top: 15px;
+      text-align: center;
+    }
+    .description {
+      font-size: 17px;
+      font-family: ;
+    }
+    #homepage_image{
+      display: none;
+    }
+    ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center !important;
+      padding: 0;
+    }
+    .btn{
+    color: #fff;
+    background-color: #B53432 !important;
+    border-color: #000000 !important;
+    font-size: 15px;
+    }
+    .ad-mobile{
+		margin:0 auto;	
+	}
+	.image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	.ws_footer{
+		color: rgb(171, 1, 0);
+	    font-family: Oswald;
+	    font-size: 16px;
+	    font-weight: bold;
+	    padding-top: 10px;
+	    padding-left: 0;
+	    text-align: center;
+	}
+	#social-media-spot{
+		margin:20px 0;
+	}
+  .facebook {
+    max-width: 40px;
+    margin-right: 7px;
+    max-height: 40px;
+  }
+  .twitter {
+    max-width: 40px;
+    margin-right: 7px;
+    max-height: 40px;
+  }
+  .pintrest {
+    max-width: 40px;
+    margin-right: 7px;
+    max-height: 40px;
+  }
+  .google {
+    max-width: 40px;
+    margin-right: 7px;
+    max-height: 40px;
+  }
+}
+/* ----------- Landscape ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	 ul, li, a{
+      font-size: 15px;
+    }
+    .btn{
+    color: #fff;
+    background-color: #B53432 !important;
+    border-color: #000000 !important;
+    font-size: 15px;
+    }
+    #homepage_image{
+      display: none;
+    }
+    .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+}
+
+/* ----------- iPhone 6 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    h1 {
+    color: #404040;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 70px;
+    }
+    .light_whites{
+      border-bottom: 10px solid #edecdf;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rich_whites{
+      border-bottom: 10px solid #FFF3CF;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .elegant_reds{
+      border-bottom: 10px solid #F5D9CE;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .big_reds{
+      border-bottom: 10px solid #D19391;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rose{
+      border-bottom: 10px solid #F2B3B1;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .sparkling{
+      border-bottom: 10px solid #F8C5A1;
+      border-right: none !important;
+      font-size: 50px;
+      padding-top: 15px;
+      text-align: center;
+    }
+    .description {
+      font-size: 20px;
+      font-family: ;
+    }
+    .rating_price{
+      font-size: 20px;
+      font-family: ;
+    }
+    .winery{
+     font-size: 20px; 
+     font-family: ;
+    }
+    .wine_name{
+     font-size: 20px; 
+     font-family: ;
+    }
+    .wine_descritpion{
+     font-size: 20px; 
+     font-family: ;
+    }
+    #homepage_image{
+      display: none;
+    }
+    .home_descritpion {
+      font-family: ;
+      font-size: 20px;
+    }
+     ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center center !important;
+      padding: 0;
+    }
+    .btn{
+    color: #fff;
+    background-color: #B53432 !important;
+    border-color: #000000 !important;
+    font-size: 23px;
+    }
+    .ad-mobile{
+		margin:0 auto;	
+	}
+	.image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	#social-media-spot{
+		margin:20px 0;
+	}
+}
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+	ul, li, a{
+      font-size: 23px;
+      background: linear-gradient(#e0ded7,#d9d7ce);
+	  color: #777 !important; 
+    }
+    .btn{
+    color: #fff;
+    background-color: #B53432 !important;
+    border-color: #000000 !important;
+    font-size: 23px;
+    }
+    #homepage_image{
+      display: none;
+    }
+    .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+    
+}
+
+/* ----------- iPhone 6+ ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+      #ws-logo{
+      margin-top: 5px !important;
+      margin-right: 0px !important;
+      margin-left: 2px !important;
+      margin-bottom: 0px !important;
+      }
+     h1 {
+      font-family: Roboto;
+      text-align: center;
+      font-size: 70px;
+    }
+    .light_whites{
+      border-bottom: 10px solid #edecdf;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rich_whites{
+      border-bottom: 10px solid #FFF3CF;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .elegant_reds{
+      border-bottom: 10px solid #F5D9CE;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .big_reds{
+      border-bottom: 10px solid #D19391;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rose{
+      border-bottom: 10px solid #F2B3B1;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .sparkling{
+      border-bottom: 10px solid #F8C5A1;
+      border-right: none !important;
+      font-size: 50px;
+      padding-top: 15px;
+      text-align: center;
+    }
+    .description {
+      font-size: 20px;
+      font-family: ;
+    }
+    .rating_price{
+      font-size: 20px;
+      font-family: ;
+    }
+    .winery{
+     font-size: 20px; 
+     font-family: ;
+    }
+    .wine_name{
+     font-size: 20px; 
+     font-family: ;
+    }
+    .wine_descritpion{
+     font-size: 20px; 
+     font-family: ;
+    }
+     #homepage_image{
+      display: none;
+    }
+    ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center;
+      padding: 0;
+    }
+    .btn{
+    color: #fff;
+    background-color: #B53432 !important;
+    border-color: #000000 !important;
+    font-size: 23px;
+    }
+	.image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+	}
+	#social-media-spot{
+		margin: 20px auto;
+    	text-align: center;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+	h1 {
+    color: #B53432;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 70px;
+    }
+    .light_whites{
+      border-bottom: 10px solid #edecdf;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rich_whites{
+      border-bottom: 10px solid #FFF3CF;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .elegant_reds{
+      border-bottom: 10px solid #F5D9CE;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .big_reds{
+      border-bottom: 10px solid #D19391;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .rose{
+      border-bottom: 10px solid #F2B3B1;
+      border-right: none !important;
+      font-size: 50px;
+      text-align: center;
+    }
+    .sparkling{
+      border-bottom: 10px solid #F8C5A1;
+      border-right: none !important;
+      font-size: 50px;
+      padding-top: 15px;
+      text-align: center;
+    }
+    .description {
+      font-size: 20px;
+      font-family: ;
+    }
+    .rating_price{
+      font-size: 20px;
+      font-family: ;
+    }
+    .winery{
+     font-size: 20px; 
+     font-family: ;
+    }
+    .wine_name{
+     font-size: 20px; 
+     font-family: ;
+    }
+    .wine_descritpion{
+     font-size: 20px; 
+     font-family: ;
+    }
+     #homepage_image{
+      display: none;
+    }
+    ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center;
+      padding: 0;
+    }
+    .btn{
+    color: #fff;
+    background-color: #B53432 !important;
+    border-color: #000000 !important;
+    font-size: 23px;
+    }
+    #ad-mobile{
+	    margin-left: 45px;
+	}
+	.image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+	}
+}
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .footer-title{
+		color:rgb(171, 1, 0);
+		font-family: Oswald;
+		font-size: 16px;
+		font-weight: bold;
+		list-style: none;
+		text-align: center !important;
+	}
+	.footer-options{
+		list-style-type:none; 
+		font-size: 16px;
+		color: rgb(81, 81, 81);
+		text-decoration: none;
+		text-align: center !important;
+	}
+	.footer-options:hover a{
+		color:rgb(171, 1, 0) !important;
+		list-style-type:none;
+		font-size: 15px;
+	}
+  ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center !important;
+      padding: 0;
+    }
+  .center-mobile{
+  	text-align: center !important;
+  	padding: none;
+  }
+  .navbar-nav>li>a {
+    padding-left: 4px;
+    text-decoration: underline;
+    text-align: center !important;
+  }
+  .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	#footer-nav {
+    	width: 100%;
+    	text-align: center !important;
+    	padding-left: 0;
+	}
+	ul.shift-text{
+	    margin-top: 0;
+	    margin-bottom: 10px;
+	    text-align: center !important;
+	    padding-left: 10px;
+	}
+	.ws_footer{
+		 color: rgb(171, 1, 0);
+	    font-family: Oswald;
+	    font-size: 16px;
+	    font-weight: bold;
+	    padding-bottom: 15px;
+	    text-align: center;
+	    text-decoration: none;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	ul, li, a{
+    padding-left: 0;
+    font-size: 15px;
+  }
+  .pike{
+    display: none;
+  }
+  .navbar-nav>li>a {
+        padding-left: 4px;
+        text-decoration: none;
+  }
+  .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .footer-title{
+		color: #ffffff;
+    font-family: Roboto, helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    list-style: none;
+    text-align: left;
+	}
+	.footer-options{
+		list-style-type:none; 
+		font-size: 16px;
+		color: rgb(81, 81, 81);
+		text-decoration: none;
+		text-align: center;
+	}
+	.footer-options:hover a{
+		color:rgb(171, 1, 0) !important;
+		list-style-type:none;
+		font-size: 15px;
+	}
+  ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center !important;
+      padding: 0;
+    }
+  .center-mobile{
+  	text-align: center !important;
+  	padding: none;
+  }
+  .navbar-nav>li>a {
+    padding-left: 4px;
+    text-decoration: underline;
+    text-align: center !important;
+  }
+  .image_banner{
+		text-align: center !important;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	#footer-nav {
+    	width: 100%;
+    	text-align: center !important;
+    	padding-left: 0;
+	}
+	ul.shift-text{
+	    margin-top: 0;
+	    margin-bottom: 10px;
+	    text-align: center !important;
+	    padding-left: 10px;
+	}
+  a:hover {
+	text-decoration: underline;
+  }
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px !important;
+	  padding-right: 10px !important;
+    font-size: 14px;
+    text-decoration: none;
+	}
+	.image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	#ws-logo {
+    	max-width: 150px;
+    	margin-top: 20px;
+    	margin-right: 0px !important;
+	}
+	.ws_footer{
+		color: rgb(171, 1, 0);
+	    font-family: Oswald;
+	    font-size: 16px;
+	    font-weight: bold;
+	    padding-top: 10px;
+	    padding-left: 0;
+	    text-align: center;
+	}
+	ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center;
+      padding: 0;
+    }
+    #ws-logo {
+      width: 110px !important;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  a:hover {
+	text-decoration: underline;
+  }
+  .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+	.ws_footer{
+		color: rgb(171, 1, 0);
+	    font-family: Oswald;
+	    font-size: 16px;
+	    font-weight: bold;
+	    padding-top: 10px;
+	    padding-left: 0;
+	    text-align: center;
+	}
+	ul, li, a{
+      font-family: 'Roboto', sans-serif;
+	  font-size: 19px;
+	  color: #777;
+	  text-align: center;
+      padding: 0;
+    }
+    #ws-logo {
+      width: 110px !important;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .image_banner{
+		text-align: center;
+    	margin: 0 0 1em 0;
+	    padding: 0;
+	}
+
+}
