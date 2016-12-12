@@ -186,7 +186,7 @@ h1{
 	display: none;
 }
 #second_nav{
-	 background-color:#fffcf4;;
+	 background-color:#fffcf4 !important;
 }
 .value-button{
 	color: #ffffff;
@@ -282,7 +282,7 @@ h1{
 	color:#ffffff;
 	font-family: Roboto, helvetica;
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: 400;
 	list-style: none;
 	text-align: left;
 }
@@ -334,7 +334,7 @@ h1{
 	max-height: 40px;
 }
 #social-media-spot{
-		margin: 10px auto;
+		margin: 40px auto;
     text-align: center;
 	}
 .footer-copyright-info{
@@ -436,7 +436,7 @@ h1{
     padding-left: 14px !important;
 	}
 	#social-media-spot{
-		  margin: 20px auto;
+		  margin: 40px auto !important;
     	text-align: center;
 	}
   #footer_space {
@@ -449,7 +449,46 @@ h1{
     font-weight: 100;
     font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
     margin-bottom: 60px;
-}
+  }
+  .value-button:hover{
+  color: #ffffff;
+  background-color: #fffcf4 !important;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  padding:10px 0;
+  font-weight: 400;
+  text-decoration: none;
+  }
+  .value-button:active{
+    color: #ffffff;
+    background-color: #fffcf4 !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding:10px 0;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .value-button:visited{
+    color: #ffffff;
+    background-color: #fffcf4 !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding:10px 0;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .value-button:focus{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding:10px 0;
+    font-weight: 400;
+    text-decoration: none;
+  }
 }
 /* Landscape */
 @media only screen 
@@ -552,7 +591,7 @@ h1{
 	    text-align: center;
 	}
 	#social-media-spot{
-		margin:20px 0;
+		margin:40px auto !important;
 	}
   .facebook {
     max-width: 40px;
@@ -573,6 +612,45 @@ h1{
     max-width: 40px;
     margin-right: 7px;
     max-height: 40px;
+  }
+  .value-button:hover{
+  color: #ffffff;
+  background-color: #fffcf4 !important;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  padding:10px 0;
+  font-weight: 400;
+  text-decoration: none;
+  }
+  .value-button:active{
+    color: #ffffff;
+    background-color: #fffcf4 !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding:10px 0;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .value-button:visited{
+    color: #ffffff;
+    background-color: #fffcf4 !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding:10px 0;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .value-button:focus{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding:10px 0;
+    font-weight: 400;
+    text-decoration: none;
   }
 }
 /* ----------- Landscape ----------- */
@@ -700,7 +778,7 @@ h1{
 	    padding: 0;
 	}
 	#social-media-spot{
-		margin:20px 0;
+		margin:40px 0 !important;
 	}
 }
 /* Landscape */
