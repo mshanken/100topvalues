@@ -47,6 +47,7 @@ a {
   margin-top: 20px;
   padding-top: 5px !important;
   padding-bottom: 20px !important;
+  font-weight: normal;
 }
 .navbar-default{
   font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
@@ -60,15 +61,17 @@ a {
 .navbar .navbar-collapse {
   text-align: center;
 }
-ul li a #{
+ul li a .nav_text{
   font-family: 'Roboto', sans-serif;
   color:#B53432 !important;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 16px;
 }
-ul li:hover a {
-  font-family: 'Roboto', sans-serif;
-  color:#B53432 !important;
-  font-weight: bold;
+ul li a:hover {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff !important;
+    font-weight: normal;
+    font-size: 16px;
 }
 #header-nav ul li:hover a {
   color:#B53432;
@@ -210,7 +213,6 @@ h1{
 }
 .value-button:active{
 	color: #ffffff;
-	background-color: #C35857;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
@@ -220,7 +222,6 @@ h1{
 }
 .value-button:visited{
 	color: #ffffff;
-	background-color: #C35857;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
@@ -401,9 +402,9 @@ h1{
     }
     ul, li, a{
       font-family: 'Roboto', sans-serif;
-	  font-size: 19px;
-	  color: #777;
-	  text-align: center !important;
+  	  font-size: 19px;
+  	  color: #777;
+  	  text-align: center !important;
       padding: 0;
     }
     .navbar-header{
@@ -450,45 +451,55 @@ h1{
     font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
     margin-bottom: 60px;
   }
+  .value-button{
+    color: #ffffff;
+    background-color: #333 !important;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    padding: 10px 0;
+    font-weight: 400;
+    text-decoration: none;  
+}
   .value-button:hover{
-  color: #ffffff;
-  background-color: #fffcf4 !important;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 19px;
-  padding:10px 0;
-  font-weight: 400;
-  text-decoration: none;
-  }
-  .value-button:active{
-    color: #ffffff;
-    background-color: #fffcf4 !important;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    padding:10px 0;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  .value-button:visited{
-    color: #ffffff;
-    background-color: #fffcf4 !important;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    padding:10px 0;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  .value-button:focus{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    padding:10px 0;
-    font-weight: 400;
-    text-decoration: none;
-  }
+      color: #ffffff;
+      background-color: #333333 !important;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    .value-button:active{
+      color: #ffffff !important;
+      background-color: #333333 !important;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    .value-button:visited{
+      color: #ffffff;
+      background-color: #333333 !important;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    .value-button:focus{
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
 }
 /* Landscape */
 @media only screen 
@@ -562,9 +573,9 @@ h1{
     }
     ul, li, a{
       font-family: 'Roboto', sans-serif;
-	  font-size: 19px;
-	  color: #777;
-	  text-align: center !important;
+  	  font-size: 19px;
+  	  color: #777;
+  	  text-align: center !important;
       padding: 0;
     }
     .btn{
@@ -575,83 +586,83 @@ h1{
     }
     .ad-mobile{
 		margin:0 auto;	
-	}
-	.image_banner{
-		text-align: center;
-    	margin: 0 0 1em 0;
-	    padding: 0;
-	}
-	.ws_footer{
-		color: rgb(171, 1, 0);
-	    font-family: Oswald;
-	    font-size: 16px;
-	    font-weight: bold;
-	    padding-top: 10px;
-	    padding-left: 0;
-	    text-align: center;
-	}
-	#social-media-spot{
-		margin:40px auto !important;
-	}
-  .facebook {
-    max-width: 40px;
-    margin-right: 7px;
-    max-height: 40px;
-  }
-  .twitter {
-    max-width: 40px;
-    margin-right: 7px;
-    max-height: 40px;
-  }
-  .pintrest {
-    max-width: 40px;
-    margin-right: 7px;
-    max-height: 40px;
-  }
-  .google {
-    max-width: 40px;
-    margin-right: 7px;
-    max-height: 40px;
-  }
-  .value-button:hover{
-  color: #ffffff;
-  background-color: #fffcf4 !important;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 19px;
-  padding:10px 0;
-  font-weight: 400;
-  text-decoration: none;
-  }
-  .value-button:active{
-    color: #ffffff;
-    background-color: #fffcf4 !important;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    padding:10px 0;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  .value-button:visited{
-    color: #ffffff;
-    background-color: #fffcf4 !important;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    padding:10px 0;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  .value-button:focus{
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    padding:10px 0;
-    font-weight: 400;
-    text-decoration: none;
-  }
+  	}
+  	.image_banner{
+  		text-align: center;
+      	margin: 0 0 1em 0;
+  	    padding: 0;
+  	}
+  	.ws_footer{
+  		color: rgb(171, 1, 0);
+  	    font-family: Oswald;
+  	    font-size: 16px;
+  	    font-weight: bold;
+  	    padding-top: 10px;
+  	    padding-left: 0;
+  	    text-align: center;
+  	}
+  	#social-media-spot{
+  		margin:40px auto !important;
+  	}
+    .facebook {
+      max-width: 40px;
+      margin-right: 7px;
+      max-height: 40px;
+    }
+    .twitter {
+      max-width: 40px;
+      margin-right: 7px;
+      max-height: 40px;
+    }
+    .pintrest {
+      max-width: 40px;
+      margin-right: 7px;
+      max-height: 40px;
+    }
+    .google {
+      max-width: 40px;
+      margin-right: 7px;
+      max-height: 40px;
+    }
+    .value-button:hover{
+      color: #ffffff;
+      background-color: #333333 !important;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    .value-button:active{
+      color: #ffffff !important;
+      background-color: #333333 !important;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    .value-button:visited{
+      color: #ffffff;
+      background-color: #333333 !important;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
+    .value-button:focus{
+      color: #ffffff;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 19px;
+      padding:10px 0;
+      font-weight: 400;
+      text-decoration: none;
+    }
 }
 /* ----------- Landscape ----------- */
 /* Landscape */
