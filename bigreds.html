@@ -65,7 +65,53 @@
 	   ga('send', {"hitType":"pageview","page":"/top100_2016/bigreds","dimension1":"top100_2016","dimension3":"top100"});
 	 </script>
   <!-- End UA code -->
-  <!-- End all Google Analytics -->
+  <!-- End all Google Analytics --><script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+
+<script type='text/javascript'>
+    googletag.cmd.push(function() {
+
+        var ad_header = googletag.sizeMapping()
+            .addSize([748, 0], [[728, 90]])
+            .addSize([320, 0], [[300, 50]])
+            .addSize([0, 0], [])
+            .build();
+
+        googletag.defineSlot('/4054/msha.ws.top100/msha.ws.top100.homepage', [[300, 50], [728, 90]], 'ad-header')
+            .defineSizeMapping(ad_header)
+            .addService(googletag.pubads())
+            .setCollapseEmptyDiv(true);
+
+        var ad_inner = googletag.sizeMapping()
+            .addSize([320, 0], [[300, 250]])
+            .addSize([0, 0], [])
+            .build();
+
+        googletag.defineSlot('/4054/msha.ws.top100/msha.ws.top100.homepage', [[300, 250]], 'ad-inner')
+            .defineSizeMapping(ad_inner)
+            .addService(googletag.pubads())
+            .setCollapseEmptyDiv(true);
+
+        var ad_list = googletag.sizeMapping()
+            .addSize([320, 0], [[300, 250]])
+            .addSize([0, 0], [])
+            .build();
+
+        googletag.defineSlot('/4054/msha.ws.top100/msha.ws.top100.list', [[300, 250]], 'ad-list')
+            .defineSizeMapping(ad_list)
+            .addService(googletag.pubads())
+            .setCollapseEmptyDiv(true);
+
+
+        googletag.enableServices();
+
+    });
+
+</script>
+
   </head>
   <body>
      <!-- Fixed navbar -->
@@ -96,7 +142,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <img src="https://tpc.googlesyndication.com/simgad/6747667809893258991" class="img-responsive" id="centering_ad">
+            <div class="Ad Ad--header" id='ad-header'>
+      <script type='text/javascript'>
+          googletag.cmd.push(function() { googletag.display('ad-header'); });
+      </script>
+  </div>
+
           </div>
         </div>
       </div>
@@ -149,7 +200,11 @@
               <p class="description">Not to be taken lightly, these reds strive to get as much out of their grapes as they can—flavor, concentration, depth and power. Ripeness is key to producing these bold wines, so look to warmer areas for the finest versions. California Zinfandel, Australian Shiraz and Argentine Malbec are reliable sources of value, yet the rebirth of historic regions such as Campania in Italy, where Aglianico is grown, and Nemea in Greece, home to Agiorgitiko, presents a range of exciting options.</p>
             </div><!--col-lg-4 col-md-12 col-sm-12 col-xs-12 -->
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 advertisement">
-      			<div id="div-gpt-ad-slot-02" data-dfp="msha.wso.wineratings.top100/Top100" data-size="[[300,250], [20,20], [1,1]]" data-pos="top" data-tile="21" data-rb="y" data-mapping="false" align="center"></div>
+              <div class="Ad Ad--inner" id='ad-inner'>
+                <script type="text/javascript">
+                  googletag.cmd.push(function() { googletag.display('ad-inner'); });
+                </script>
+              </div>
       		</div>
           </div><!--col-lg-4 col-md-12 col-sm-12 col-xs-12 -->
         </div><!-- row -->
