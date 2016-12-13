@@ -6,7 +6,7 @@
     border-bottom: 1px solid #999;
 }
 .event_name{
-  text-decoration:none; 
+  text-decoration:none;
   font-size:70px;
   margin-top: 24px;
   border-top: 6px solid #333;
@@ -196,7 +196,7 @@ h1{
     font-size: 19px;
     padding: 10px 0;
     font-weight: 400;
-    text-decoration: none;	
+    text-decoration: none;
 }
 .value-button:hover{
 	color: #ffffff;
@@ -287,7 +287,7 @@ h1{
 	text-align: left;
 }
 .footer-options{
-	list-style-type:none; 
+	list-style-type:none;
 	font-size: 16px;
 	color: #ffffff !important;
 	text-decoration: none;
@@ -303,7 +303,7 @@ h1{
   text-decoration: none !important;
 }
 .footer-options-links{
-	list-style-type:none; 
+	list-style-type:none;
 	font-size: 16px;
 	color: #ffffff;
 	text-decoration: none;
@@ -312,7 +312,7 @@ h1{
 #footer_space{
   margin-top: 20px;
   margin-bottom: 40px;
-  }    
+  }
 .facebook{
 	max-width: 40px;
 	margin-right:24px;
@@ -346,8 +346,8 @@ h1{
 }
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
@@ -409,7 +409,7 @@ h1{
     .navbar-header{
     	background: #333;
     }
-   
+
     .navbar-default {
 	    border-color: #e7e7e7;
 	    min-height: 0px;
@@ -491,8 +491,8 @@ h1{
   }
 }
 /* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
@@ -511,8 +511,8 @@ h1{
 
 /* ----------- iPhone 5 and 5S ----------- */
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
@@ -574,7 +574,7 @@ h1{
     font-size: 15px;
     }
     .ad-mobile{
-		margin:0 auto;	
+		margin:0 auto;
 	}
 	.image_banner{
 		text-align: center;
@@ -655,8 +655,8 @@ h1{
 }
 /* ----------- Landscape ----------- */
 /* Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
@@ -681,11 +681,11 @@ h1{
 
 /* ----------- iPhone 6 ----------- */
 /* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
     h1 {
     color: #404040;
     font-family: Roboto;
@@ -738,15 +738,15 @@ h1{
       font-family: ;
     }
     .winery{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     .wine_name{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     .wine_descritpion{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     #homepage_image{
@@ -770,7 +770,7 @@ h1{
     font-size: 23px;
     }
     .ad-mobile{
-		margin:0 auto;	
+		margin:0 auto;
 	}
 	.image_banner{
 		text-align: center;
@@ -782,15 +782,15 @@ h1{
 	}
 }
 /* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  and (orientation: landscape) {
 	ul, li, a{
       font-size: 23px;
       background: linear-gradient(#e0ded7,#d9d7ce);
-	  color: #777 !important; 
+	  color: #777 !important;
     }
     .btn{
     color: #fff;
@@ -806,16 +806,16 @@ h1{
     	margin: 0 0 1em 0;
 	    padding: 0;
 	}
-    
+
 }
 
 /* ----------- iPhone 6+ ----------- */
 /* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+  and (orientation: portrait) {
       #ws-logo{
       margin-top: 5px !important;
       margin-right: 0px !important;
@@ -873,15 +873,15 @@ h1{
       font-family: ;
     }
     .winery{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     .wine_name{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     .wine_descritpion{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
      #homepage_image{
@@ -918,11 +918,11 @@ h1{
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+  and (orientation: landscape) {
 	h1 {
     color: #B53432;
     font-family: Georgia;
@@ -975,15 +975,15 @@ h1{
       font-family: ;
     }
     .winery{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     .wine_name{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
     .wine_descritpion{
-     font-size: 20px; 
+     font-size: 20px;
      font-family: ;
     }
      #homepage_image{
@@ -1019,9 +1019,9 @@ h1{
 }
 /* ----------- iPad mini ----------- */
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (orientation: portrait) 
+@media only screen
+  and (min-device-width: 768px)
+  and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
   .footer-title{
 		color:rgb(171, 1, 0);
@@ -1032,7 +1032,7 @@ h1{
 		text-align: center !important;
 	}
 	.footer-options{
-		list-style-type:none; 
+		list-style-type:none;
 		font-size: 16px;
 		color: rgb(81, 81, 81);
 		text-decoration: none;
@@ -1087,10 +1087,10 @@ h1{
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
 	ul, li, a{
     padding-left: 0;
@@ -1113,10 +1113,10 @@ h1{
 /* ----------- iPad 1 and 2 ----------- */
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
   .footer-title{
 		color: #ffffff;
@@ -1127,7 +1127,7 @@ h1{
     text-align: left;
 	}
 	.footer-options{
-		list-style-type:none; 
+		list-style-type:none;
 		font-size: 16px;
 		color: rgb(81, 81, 81);
 		text-decoration: none;
@@ -1213,10 +1213,10 @@ h1{
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
   a:hover {
 	text-decoration: underline;
@@ -1232,10 +1232,10 @@ h1{
 /* ----------- iPad 3 and 4 ----------- */
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
   .image_banner{
 		text-align: center;
@@ -1264,10 +1264,10 @@ h1{
 }
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
   .image_banner{
 		text-align: center;
@@ -1276,3 +1276,10 @@ h1{
 	}
 
 }
+
+.Ad {
+  text-align: center;
+}
+
+/*.Ad--header {
+}*/

@@ -64,6 +64,53 @@
 	 </script>
   <!-- End UA code -->
   <!-- End all Google Analytics -->
+  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+
+<script type='text/javascript'>
+    googletag.cmd.push(function() {
+
+        var ad_header = googletag.sizeMapping()
+            .addSize([748, 0], [[728, 90]])
+            .addSize([320, 0], [[300, 50]])
+            .addSize([0, 0], [])
+            .build();
+
+        googletag.defineSlot('/4054/msha.ws.top100/msha.ws.top100.homepage', [[300, 50], [728, 90]], 'ad-header')
+            .defineSizeMapping(ad_header)
+            .addService(googletag.pubads())
+            .setCollapseEmptyDiv(true);
+
+        var ad_inner = googletag.sizeMapping()
+            .addSize([320, 0], [[300, 250]])
+            .addSize([0, 0], [])
+            .build();
+
+        googletag.defineSlot('/4054/msha.ws.top100/msha.ws.top100.homepage', [[300, 250]], 'ad-inner')
+            .defineSizeMapping(ad_inner)
+            .addService(googletag.pubads())
+            .setCollapseEmptyDiv(true);
+
+        var ad_list = googletag.sizeMapping()
+            .addSize([320, 0], [[300, 250]])
+            .addSize([0, 0], [])
+            .build();
+
+        googletag.defineSlot('/4054/msha.ws.top100/msha.ws.top100.list', [[300, 250]], 'ad-list')
+            .defineSizeMapping(ad_list)
+            .addService(googletag.pubads())
+            .setCollapseEmptyDiv(true);
+
+
+        googletag.enableServices();
+
+    });
+
+</script>
+
   </head>
   <body>
    <!-- Fixed navbar -->
@@ -94,7 +141,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <img src="https://tpc.googlesyndication.com/simgad/6747667809893258991" class="img-responsive" id="centering_ad">
+          <div class="Ad Ad--header" id='ad-header'>
+    <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('ad-header'); });
+    </script>
+</div>
+
         </div>
       </div>
     </div>
@@ -146,7 +198,11 @@
 	          <p class="home_descritpion"> Another 29 wines in this year’s Top 100 also represent exceptional value, providing further evidenceof the high quality that can be found without breaking the bank. The selection that follows covers six categories—Light Whites, Rich Whites, Elegant Reds, Big Reds, Rosé and Sparkling—and spans every corner of the wine world, from Napa Valley, Bordeaux and Tuscany to less-familiar areas such as Italy’s Calabria region, the French island of Corsica, and New Mexico. When the wines are this good and this well-priced, there’s nothing to hold you back from exploring.</p>
           </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 advertisement" id="ad-mobile"><img src="https://tpc.googlesyndication.com/simgad/10185447863266890435" class="img-responsive"></div>
-      			<div id="div-gpt-ad-slot-02" data-dfp="msha.wso.wineratings.top100/Top100" data-size="[[300,250], [20,20], [1,1]]" data-pos="top" data-tile="21" data-rb="y" data-mapping="false" align="center"></div>
+            <div class="Ad Ad--inner" id='ad-inner'>
+              <script type="text/javascript">
+                googletag.cmd.push(function() { googletag.display('ad-inner'); });
+              </script>
+            </div>
       		</div>
       		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="social-media-spot">
 	          <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//top100.winespectator.com/2016/values/" target="blank"><img src="http://assets.mshanken.com/promo/images/facebook52.svg" class="facebook"/></a>
