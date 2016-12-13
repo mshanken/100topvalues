@@ -494,6 +494,14 @@ h1{
     font-weight: 400;
     text-decoration: none;
   }
+  .home_descritpion {
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px;
+  }
+  #home_descritpion_2{
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px !important;
+  }
 }
 /* Landscape */
 @media only screen
@@ -657,6 +665,14 @@ h1{
     font-weight: 400;
     text-decoration: none;
   }
+  .home_descritpion {
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px;
+  }
+  #home_descritpion_2{
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px !important;
+  }
 }
 /* ----------- Landscape ----------- */
 /* Landscape */
@@ -757,10 +773,6 @@ h1{
     #homepage_image{
       display: none;
     }
-    #home_descritpion {
-      font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
-      font-size: 20px;
-    }
      ul, li, a{
       font-family: 'Roboto', sans-serif;
 	  font-size: 19px;
@@ -785,6 +797,10 @@ h1{
 	#social-media-spot{
 		margin:40px 0 !important;
 	}
+  .home_descritpion {
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px;
+  }
   #home_descritpion_2{
     font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
     font-size: 20px !important;
@@ -924,12 +940,15 @@ h1{
 		margin: 20px auto;
     text-align: center;
 	}
+  .home_descritpion {
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px;
+  }
   #home_descritpion_2{
     font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
     font-size: 20px !important;
   }
 }
-
 /* Landscape */
 @media only screen
   and (min-device-width: 414px)
