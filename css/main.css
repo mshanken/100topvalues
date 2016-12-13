@@ -918,8 +918,12 @@ h1{
 	}
 	#social-media-spot{
 		margin: 20px auto;
-    	text-align: center;
+    text-align: center;
 	}
+  .home_descritpion_2{
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 17px;
+  }
 }
 
 /* Landscape */
