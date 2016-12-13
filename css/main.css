@@ -757,8 +757,8 @@ h1{
     #homepage_image{
       display: none;
     }
-    .home_descritpion {
-      font-family: ;
+    #home_descritpion {
+      font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
       font-size: 20px;
     }
      ul, li, a{
@@ -785,6 +785,10 @@ h1{
 	#social-media-spot{
 		margin:40px 0 !important;
 	}
+  #home_descritpion_2{
+    font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
+    font-size: 20px !important;
+  }
 }
 /* Landscape */
 @media only screen
@@ -920,9 +924,9 @@ h1{
 		margin: 20px auto;
     text-align: center;
 	}
-  .home_descritpion_2{
+  #home_descritpion_2{
     font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
-    font-size: 17px;
+    font-size: 20px !important;
   }
 }
 
