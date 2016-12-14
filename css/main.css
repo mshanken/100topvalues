@@ -813,9 +813,8 @@ h1{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 	ul, li, a{
-      font-size: 23px;
-      background: linear-gradient(#e0ded7,#d9d7ce);
-	  color: #777 !important;
+      color: #ffffff !important;
+      text-align: center !important;
     }
     .btn{
     color: #fff;
@@ -955,11 +954,11 @@ h1{
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-	h1 {
-    color: #B53432;
-    font-family: Georgia;
-    text-align: center;
-    font-size: 70px;
+	 h1 {
+      font-family: Roboto;
+      text-align: center;
+      font-size: 70px;
+      color: #333 !important; 
     }
     .light_whites{
       border-bottom: 10px solid #edecdf;
@@ -1023,10 +1022,11 @@ h1{
     }
     ul, li, a{
       font-family: 'Roboto', sans-serif;
-	  font-size: 19px;
-	  color: #777;
-	  text-align: center;
+  	  font-size: 19px;
+  	  color: #777;
+  	  text-align: center;
       padding: 0;
+      text-align: center !important;
     }
     .btn{
     color: #fff;
