@@ -349,6 +349,9 @@ h1{
   font-family: roboto,helvetica neue,helvetica,arial,sans-serif;
   margin-bottom: 20px;
 }
+.asset_link{
+  color: #000000 !important;
+}
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait */
 @media only screen
